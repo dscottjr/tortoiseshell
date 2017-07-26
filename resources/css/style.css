@@ -84,10 +84,38 @@ body {
   text-align: center;
 }
 
+#image1 {
+  width: 3rem;
+}
+
 #image2, #image3 {
   width: 5rem;
 }
 
-#image1 {
-  width: 3rem;
+.sitecontainer {
+  max-width: 960px;
+  margin: 0 auto;
 }
+
+.infocontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  width: 35%;
+  margin-right: 5%;
+}
+
+.infotitle {
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: cadetblue;
+  padding: .5rem 1.25rem;
+  color: white;
+  max-width: 10rem;
+}
+
+.info p {
+  margin-top: 1rem;
+  }
