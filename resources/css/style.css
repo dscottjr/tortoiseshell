@@ -3,6 +3,10 @@ html {
   line-height: 1.4;
 }
 
+body {
+  font-family: Helvetica;
+}
+
 .banner {
   height: 31rem;
   background-image: url("../images/glasses-bg.png");
@@ -44,14 +48,46 @@ html {
 
 .bannertextcontainer {
   display: flex;
+  justify-content: flex-end;
+}
+
+.bannertextbox {
+  display: flex;
   justify-content: center;
   align-items: center;
   background-color: white;
+  margin-top: 10rem;
+  margin-right: 9rem;
+  padding: 1.5rem 5rem;
 }
 
-.bannertextcontainer span {
+.bannertextbox span {
   font-family: Helvetica;
   font-size: 2rem;
   font-weight: bold;
   line-height: 1.2;
+}
+
+.featurescontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 8rem;
+  width: 5rem;
+  margin: 3rem;
+  text-align: center;
+}
+
+#image2, #image3 {
+  width: 5rem;
+}
+
+#image1 {
+  width: 3rem;
 }
