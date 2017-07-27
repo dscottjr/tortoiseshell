@@ -119,3 +119,27 @@ body {
 .info p {
   margin-top: 1rem;
   }
+
+#firstcontainer {
+  margin-bottom: 5rem;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    background-color: azure;
+    justify-content: flex-start;
+  }
+
+.footerlogo {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+
+.footerlogo img {
+  padding-left: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-right: 1rem;
+}
